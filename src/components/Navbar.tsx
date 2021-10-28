@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-types */
 import { FunctionComponent, useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -30,10 +31,10 @@ const Navbar = () => {
   }, []);
   return (
     <div className="flex justify-between px-5 py-3 my-3">
-      <span className="font-bold text-green md:text-2xl text-xl border-green border-b-4">
+      <span className="text-xl font-bold border-b-4 text-green md:text-2xl border-green">
         {activeLink}
       </span>
-      <div className="flex space-x-5  text-lg">
+      <div className="flex space-x-5 text-lg">
         <NavItem
           activeLink={activeLink}
           setActiveLink={setActiveLink}
