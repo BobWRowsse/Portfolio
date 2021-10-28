@@ -22,4 +22,10 @@ export interface IProject {
   tech_base: string[];
 }
 
-export type Category = 'react' | 'node' | 'express' | 'django' | 'mongo';
+export type Category =
+  | 'react'
+  | 'node'
+  | 'firebase'
+  | 'express'
+  | 'django'
+  | 'mongo';

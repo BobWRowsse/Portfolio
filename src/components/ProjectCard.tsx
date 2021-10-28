@@ -10,7 +10,6 @@ const ProjectCard: FunctionComponent<{
   project: {
     name,
     image_path,
-    category,
     deployed_url,
     github_url,
     description,
