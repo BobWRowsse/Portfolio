@@ -12,7 +12,7 @@ const index = () => {
         background in film, design & photography
       </h5>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-200"
+        className="flex-grow p-4 mt-5 bg-gray-200 dark:bg-dark-200"
         style={{ marginLeft: '-1.5rem', marginRight: '-1.5rem' }}
       >
         <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
@@ -27,7 +27,7 @@ const index = () => {
             <motion.div
               variants={itemFadeIn}
               key="index"
-              className="bg-gray-200 rounded-lg lg:col-span-1 dark:bg-dark-500"
+              className="bg-white rounded-lg shadow-lg lg:col-span-1 dark:bg-dark-500"
             >
               <ServiceCard service={service} />
             </motion.div>
