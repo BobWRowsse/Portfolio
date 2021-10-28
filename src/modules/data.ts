@@ -118,21 +118,42 @@ export const projects: IProject[] = [
     tech_base: ['React', 'Chart.js', 'Material UI'],
   },
   {
-    name: 'Algorithm Visualizer',
-    image_path: '/images/algoVisual.png',
-    deployed_url: 'https://visual-algorithm.web.app/',
-    github_url: 'https://github.com/Dey-Sumit/algorithm-visualizer',
+    name: 'Tesla Website',
+    image_path: '/images/Tesla.png',
+    deployed_url: 'https://teslaclone-educational-purposes.netlify.app',
+    github_url: 'https://github.com/BobWRowsse/tesla-clone',
     category: ['react'],
+    description: 'a clone of the tesla website.',
+    tech_base: ['React', 'material-ui'],
+  },
+
+  {
+    name: 'Realtime Chat App',
+    image_path: '/images/Chat.png',
+    deployed_url: 'https://island-chat.netlify.app/',
+    github_url: 'https://github.com/BobWRowsse/island-chat',
+    category: ['node', 'react'],
     description:
-      'An web app which shows how an algorithm (path finding or sorting) works with cool animation',
-    tech_base: ['React', 'firebase', 'Framer Motion'],
+      'Basic Realtime Chat App where one can create a room can talk to each other',
+    tech_base: ['React', 'Node', 'Express', 'Socket'],
+  },
+
+  {
+    name: 'Tweeter Clone',
+    image_path: '/images/app.jpg',
+    deployed_url: '',
+    github_url: '',
+    category: ['django', 'react'],
+    description:
+      'First Django Project :) | Typical Social Media App where one can post,like ,comment etc',
+    tech_base: ['React', 'Django', 'Django REST API'],
   },
 
   {
     name: 'Dev Talks',
-    image_path: '/images/dev.jpg',
-    deployed_url: 'https://dev-talks.herokuapp.com/',
-    github_url: 'https://github.com/Dey-Sumit/Dev-talks',
+    image_path: '/images/app.jpg',
+    deployed_url: '',
+    github_url: '',
     category: ['node', 'mongo', 'react'],
     description:
       'Social Media app for developers who can share project,create posts,etc...',
@@ -148,32 +169,10 @@ export const projects: IProject[] = [
   },
 
   {
-    name: 'Realtime Chat App',
-    image_path: '/images/chatapp.jpg',
-    deployed_url: 'https://sumit-chat.netlify.app/',
-    github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
-    category: ['node', 'react'],
-    description:
-      'Basic Realtime Chat App where one can create a room can talk to each other',
-    tech_base: ['React', 'Node', 'Express', 'Socket', 'Bootstrap'],
-  },
-
-  {
-    name: 'Tweeter Clone',
-    image_path: '/images/tweetme.jpg',
-    deployed_url: 'http://sumaxtweetme.pythonanywhere.com/',
-    github_url: 'https://github.com/Dey-Sumit/tweetme',
-    category: ['django', 'react'],
-    description:
-      'First Django Project :) | Typical Social Media App where one can post,like ,comment etc',
-    tech_base: ['React', 'Django', 'Django REST API'],
-  },
-
-  {
     name: 'Color Classification using tf.js',
-    image_path: '/images/color.jpg',
+    image_path: '/images/app.jpg',
     deployed_url: '!#',
-    github_url: 'https://github.com/Dey-Sumit/color-classification',
+    github_url: '',
     category: ['express'],
     description:
       'Tried ML with JS :) | this app classifies a color using CNN algorithm in browser',
@@ -181,9 +180,9 @@ export const projects: IProject[] = [
   },
   {
     name: 'YouTube using YouTube ',
-    image_path: '/images/youtubeClone.png',
-    deployed_url: 'https://not-utube.web.app/',
-    github_url: 'https://github.com/Dey-Sumit/youtube-clone-tutorial-up',
+    image_path: '/images/app.jpg',
+    deployed_url: '',
+    github_url: '',
     category: ['express'],
     description:
       'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
@@ -198,9 +197,9 @@ export const projects: IProject[] = [
   },
   {
     name: 'Football App',
-    image_path: '/images/football.png',
-    deployed_url: 'https://o-my-goal.web.app/',
-    github_url: 'https://github.com/Dey-Sumit/football-app',
+    image_path: '/images/app.jpg',
+    deployed_url: '',
+    github_url: '',
     category: ['react'],
     description:
       'o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ',
